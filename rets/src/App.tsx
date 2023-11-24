@@ -1,12 +1,12 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Page from "./component/Page";
 
-function App() {
+export const App = () => {
   return (
-    <div className="App">
+    <div>
+      <Page />
     </div>
-  );
+  )
 }
 
 export default App;
