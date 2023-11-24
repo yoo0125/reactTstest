@@ -1,3 +1,17 @@
+.green-nav {
+    display: flex;
+    background-color: chartreuse;
+    width: 100%;
+    color: white;
+    padding-left: 20px;
+    }
+.state-img{
+    display: flex;
+    background-color: rgb(187, 214, 160);
+    width: 4rem;
+    color: #fff;
+    padding-left: 20px;
+}
 .Upbutton {
 background-color: green;
 color: #fff;
