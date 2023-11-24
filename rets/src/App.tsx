@@ -1,11 +1,16 @@
 import React from 'react'
-import Page from "./component/Page";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Page from './component/Page';
+import PrevPage from './component/PrevPage';
 
-export const App = () => {
+export const App: React.FC = () => {
   return (
-    <div>
-      <Page />
-    </div>
+    <Router>
+      <Routes>
+        <Route path= "/" element={<Page someDynamicValue="example"/>} />
+        <Route path= "/PrevPage" element={<PrevPage />}/>
+      </Routes>
+    </Router>
   )
 }
 

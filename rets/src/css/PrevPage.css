@@ -1,0 +1,45 @@
+.blue-nav {
+    display: flex;
+    background-color: cornflowerblue;
+    width: 100%;
+    color: white;
+    padding-left: 20px;
+    }
+.blog {
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    max-width: 1600px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+.sidebarList li {
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+.title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.meta {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.content {
+    line-height: 1.6;
+}
+.container {
+    display: flex;
+}
+.li sidebar{
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 4px;
+    width: 200px;
+}
+.sidebar {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 4px;
+}
