@@ -5,41 +5,31 @@
     color: white;
     padding-left: 20px;
     }
-.blog {
-    font-family: Arial, sans-serif;
-    margin: 20px auto;
-    max-width: 1600px;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
-}
-.sidebarList li {
-    margin-bottom: 8px;
-    cursor: pointer;
-}
-.title {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-.meta {
-    color: #555;
-    font-size: 14px;
-    margin-bottom: 20px;
-}
-.content {
-    line-height: 1.6;
-}
 .container {
     display: flex;
-}
-.li sidebar{
+  }
+  
+  .sidebar {
     background-color: #f4f4f4;
     padding: 10px;
     border-radius: 4px;
-    width: 200px;
-}
-.sidebar {
+    width: 200px; /* 사이드바의 폭을 조절할 수 있습니다. */
+  }
+  
+  .sidebarList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebarList li {
+    margin-bottom: 8px;
+    cursor: pointer;
+  }
+  
+  .content {
     background-color: #f4f4f4;
-    padding: 10px;
-    border-radius: 4px;
-}
+    margin-left: 20px;
+  }
+  .center {
+    text-align: center;
+  }
