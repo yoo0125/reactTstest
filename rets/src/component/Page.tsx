@@ -23,7 +23,8 @@ const Page: React.FC<CounterState> = ({ someDynamicValue }) => {
   };
 
   const handleClick = () => {
-  navigate('/PrevPage')}
+  navigate('/PrevPage');
+  };
 
   return (
     <div>
