@@ -36,7 +36,7 @@ const PrevPage: React.FC = () => {
           case '항목 1':
             return  <div className='center'>
                     <p>useState: 상대 값을 관리하기 위해 사용하는 Hook</p>
-                    <div className={`$'textareaContainer' $'center'`}>
+                    <div className='textareaContainer'>
               <div className='buttonContainer'>
                 <button onClick={handleCopyClick}>텍스트 복사</button>
               </div>
