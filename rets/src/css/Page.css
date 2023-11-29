@@ -16,20 +16,19 @@
 background-color: green;
 color: #fff;
 margin-left: 55rem;
+margin-right: 1rem;
 }
 .Downbutton {
 background-color: blueviolet;
 color: #fff;
-margin-left: 55rem;
+margin-right: 1rem
 }
 .Resetbutton {
 background-color: brown;
 color: #fff;
-margin-left: 55rem;
+margin-right: 1rem
 }
 .Prevbutton {
 background-color: cornflowerblue;
 color: #fff;
-
-margin-left: 61rem;
 }
