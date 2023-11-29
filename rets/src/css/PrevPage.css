@@ -44,9 +44,10 @@ margin: 15px;
 margin-left: 108rem;
 }
 .codeTextArea {
+  background-color: #1e1e1e;
+  color: rgb(220, 220, 220);
   width: 600px;
-  height: 300px;
-  margin-top: 10px;
+  height: 350px;
   resize: none;
 }
 .textareaContainer {
@@ -57,4 +58,21 @@ margin-left: 108rem;
   top: 0;
   right: 0;
   margin: 10px;
+}
+.kGQJNI {
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 24px 0px;
+}
+.bMwTGV {
+  width: 574px;
+  margin-left: 458px;
+  font-size: 15px;
+  text-align: left;
+  line-height: 1;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  background: rgb(59, 63, 78);
+  padding: 10px 16px;
 }
