@@ -3,12 +3,17 @@ import {useNavigate} from 'react-router-dom';
 import '../css/PrevPage.css';
 
 const PrevPage: React.FC = () => {
+    const [isListOpen, setIsListOpen] = useState(false);
     const [selectedItem, setSelectedItem] = useState<string | null>(null);
     const contentRef = useRef<HTMLTextAreaElement>(null);
     const navigate = useNavigate();
 
     const handleItemClick = (item : string) => {
         setSelectedItem(item);
+    };
+
+    const handleToggleClick = () => {
+        setIsListOpen(!isListOpen);
     };
 
     const handleCopyClick = async () => {
@@ -332,7 +337,9 @@ function ExpensiveCalculation({ number }) {
     </div>
         <div className='container'>
             <div className='sidebar'>
-                <h3 style={{backgroundColor: '#f4f4f4'}}>목록</h3>
+                <h3 style={{backgroundColor: '#f4f4f4'}}>목록
+                <button className='listbutton' onClick={handleToggleClick}>{isListOpen ? '△' : '▽'}</button> </h3>
+                {isListOpen && (
             <ul className='sidebarList'>
                 <li onClick={() => handleItemClick('항목 1')}>useState</li>
                 <li onClick={() => handleItemClick('항목 2')}>useEffect</li>
@@ -344,6 +351,7 @@ function ExpensiveCalculation({ number }) {
                 <li onClick={() => handleItemClick('항목 8')}>useMemo</li>
                 <li onClick={() => handleItemClick('항목 9')}>그 외</li>
             </ul>
+                )}
             </div>
         <div className='content'>
             <div className='center'>

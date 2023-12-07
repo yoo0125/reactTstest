@@ -76,3 +76,8 @@ margin-left: 108rem;
   background: rgb(59, 63, 78);
   padding: 10px 16px;
 }
+.listbutton{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
