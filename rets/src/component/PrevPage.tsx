@@ -1,4 +1,6 @@
+// @ts-ignore
 import React, {useRef, useState} from 'react';
+// @ts-ignore
 import {useNavigate} from 'react-router-dom';
 import '../css/PrevPage.css';
 
@@ -27,6 +29,10 @@ const PrevPage: React.FC = () => {
             alert('복사에 실패했습니다.');
           }
       };
+
+    const handlePageChange = () => {
+
+    }
 
     const handlePageClick = () => {
     navigate('/');
